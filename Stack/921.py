@@ -12,4 +12,4 @@ class Solution:
                 else:
                     moves += 1  
 
-        return moves + balance  
+        return moves + balance 
