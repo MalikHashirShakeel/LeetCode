@@ -1,5 +1,6 @@
 import pandas as pd
 
+#Find nth heighest salary.
 def nth_highest_salary(employee: pd.DataFrame, N: int) -> pd.DataFrame:
     distinct_salaries = employee["salary"].drop_duplicates().sort_values(ascending = False)
 
